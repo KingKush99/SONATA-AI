@@ -1,0 +1,5 @@
+{
+  "name": "S.O.N.A.T.A. AI  (Synthetic Orchestral Neural Audio Transcription Architect)",
+  "description": "S.O.N.A.T.A. (Synthetic Orchestral Neural Audio Transcription Architect) is an intelligent music composition suite for generating complex scores with real-time playback and MIDI export.",
+  "requestFramePermissions": []
+}
