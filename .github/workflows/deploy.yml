@@ -23,7 +23,10 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Verify Entry Point
+        run: ls -la index.html
 
       - name: Build
         run: npm run build
