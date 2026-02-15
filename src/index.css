@@ -1,0 +1,26 @@
+/* Base Styles for S.O.N.A.T.A. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --background: #09090b;
+  --foreground: #fafafa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom styles already in index.html, but moved here for cleanliness */
+.abcjs-highlight {
+  fill: #4f46e5 !important;
+  stroke: #4f46e5 !important;
+}

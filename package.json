@@ -1,0 +1,29 @@
+{
+  "name": "s.o.n.a.t.a.-ai--(synthetic-orchestral-neural-audio-transcription-architect)",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tonejs/midi": "^2.0.28",
+    "abcjs": "^6.4.1",
+    "lucide-react": "^0.563.0",
+    "midi-writer-js": "^3.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
